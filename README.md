@@ -111,7 +111,11 @@
 
         With every heartbeat, every dream,<br>
         every silent prayer…<br>
-        I see my forever in your eyes.<br><br>
+        I see my forever in your eyes👀
+        
+        CONVEYING SORRY..
+        
+        “On this Propose Day, I come to you with a heart that knows it made mistakes, but also with a love that never once stopped choosing you. I’m truly sorry for the pain I caused, not because I was careless with us, but because I care so deeply that losing you scares me more than anything. Every moment of silence, every tear, reminded me how precious you are to me. My Childish love for you isn’t perfect, but it is honest, loyal, and forever yours. So today, I propose to you again—not just with words, but with my whole heart—please forgive me, hold my hand, and let me love you better, stronger, and more gently for the rest of my life.😭🫵🏻❤️‍🔥🫂”.<br><br>
 
         Will you walk with me,<br>
         not just today,<br>
