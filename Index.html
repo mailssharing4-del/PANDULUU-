@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Chocolate Day PANDULUU!</title>
+    <style>
+        :root {
+            --cocoa: #3d1c02;
+            --gold: #d4af37;
+            --cream: #fff5e1;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle, #5d2e0a, #2b1201);
+            font-family: 'Georgia', serif;
+            overflow-x: hidden;
+            color: var(--cream);
+            text-align: center;
+        }
+
+        /* Floating Balloons */
+        .balloon {
+            position: absolute;
+            width: 80px;
+            height: 100px;
+            background: rgba(212, 175, 55, 0.7);
+            border-radius: 50%;
+            bottom: -100px;
+            animation: float 10s infinite ease-in;
+            z-index: 1;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(-110vh) rotate(20deg); opacity: 0; }
+        }
+
+        /* Chocolate Wrapper Section */
+        .wrapper-container {
+            margin-top: 100px;
+            display: inline-block;
+            perspective: 1000px;
+        }
+
+        .chocolate-wrapper {
+            background: linear-gradient(45deg, #b8860b, #ffd700, #b8860b);
+            padding: 40px 60px;
+            border: 5px solid #8b4513;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transform: rotate(-2deg);
+            border-radius: 5px;
+            position: relative;
+        }
+
+        .chocolate-wrapper h1 {
+            color: var(--cocoa);
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 0;
+            text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+        }
+
+        .sub-text {
+            color: #5d2e0a;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Interactive Elements */
+        .message-box {
+            margin: 50px auto;
+            max-width: 600px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid var(--gold);
+        }
+
+        .heart {
+            color: #ff4d4d;
+            font-size: 2rem;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="balloon" style="left: 10%; animation-delay: 0s;"></div>
+    <div class="balloon" style="left: 30%; animation-delay: 2s; background: #8b4513;"></div>
+    <div class="balloon" style="left: 70%; animation-delay: 4s;"></div>
+    <div class="balloon" style="left: 85%; animation-delay: 1s; background: #8b4513;"></div>
+
+    <div class="wrapper-container">
+        <div class="chocolate-wrapper">
+            <p style="margin:0; font-size: 0.8rem; color: #5d2e0a;">PREMIUM QUALITY</p>
+            <h1>PANDULUU</h1>
+            <p class="sub-text">Limited Edition Sweetheart</p>
+        </div>
+    </div>
+
+    <div class="message-box">
+        <div class="heart">❤</div>
+        <h2>To the Sweetest Person,</h2>
+        <p>You are more addictive than dark chocolate and sweeter than milk chocolate. 
+           This day is just a reminder of how much flavor you add to my life!</p>
+        <p><i>Click the wrapper for a surprise!</i></p>
+    </div>
+
+    <script>
+        // Simple click interaction for the "Magical" feel
+        document.querySelector('.chocolate-wrapper').addEventListener('click', function() {
+            alert("✨ A Golden Ticket for PANDULUU! You deserve all the treats today! ✨");
+        });
+    </script>
+</body>
+</html>
