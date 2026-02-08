@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Proposal to You</title>
+
 <style>
     body {
         margin: 0;
@@ -95,14 +97,17 @@
 </head>
 
 <body>
+
 <div class="stars"></div>
 
 <div class="card">
     <h1>Happy Propose Day 💫</h1>
+
     <div class="name">PANDULUU 💖</div>
+
     <p>
         In this endless universe full of stars,<br>
-        my heart chose only **you**.<br><br>
+        my heart chose only <strong>you</strong>.<br><br>
 
         With every heartbeat, every dream,<br>
         every silent prayer…<br>
@@ -112,7 +117,9 @@
         not just today,<br>
         but for all the magical tomorrows? ✨
     </p>
+
     <div class="heart">💗</div>
+
     <button class="btn" onclick="alert('You are my forever 🌙💞')">
         Will You Be Mine?
     </button>
